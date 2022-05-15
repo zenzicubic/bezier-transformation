@@ -94,7 +94,7 @@ void loop(void) {
         lerp(&v4, lval, vectors[0][j][3], vectors[1][j][3]);
         paintBezier(v1, v2, v3, v4);
     }
-    lt += STEP; // add or subtract from the counter based on the indicator
+    lt += STEP; // add to the counter based on an interval
     glFlush();
 }
 
